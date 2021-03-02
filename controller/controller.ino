@@ -18,7 +18,7 @@ void loop() {
   stepMotorOn(STEPS_PER_ROTATION);
 }
 
-/** Starts the step motor with number of steps to run. */
+/** Starts the step motor with the number of steps to run. */
 void stepMotorOn(int steps) {
   Serial.print(steps);
   Serial.println(F(" steps."));
